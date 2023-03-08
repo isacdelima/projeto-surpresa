@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixinha de Surpresas</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: wheat;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        div{
+            display:block;
+            text-align: center;        
+        }
+
+        div a{
+            text-decoration: none;
+            color: transparent;
+        }
+
+        picture{
+            margin: 10px;
+        }
+
+        iframe{
+            display: block;
+            margin: auto;
+            width: 95vw;
+            height: 330px;
+            border: 2px dashed palevioletred;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Escolha uma caixinha</h1>
+        <div>
+            <a href="paginas-extra/pag01.html" target="frame">
+                <picture>
+                    <source media="(max-width:885px)" srcset="imagens/caixinha-de-presente-120.png">
+                    <source media="(max-width:1300px)" srcset="imagens/caixinha-de-presente-200.png">
+                    <img src="imagens/caixinha-de-presente-300.png" alt="caixa de presente">
+                </picture>
+            </a>
+            <a href="paginas-extra/pag02.html" target="frame">
+                <picture>
+                    <source media="(max-width:885px)" srcset="imagens/caixinha-de-presente-120.png">
+                    <source media="(max-width:1300px)" srcset="imagens/caixinha-de-presente-200.png">
+                    <img src="imagens/caixinha-de-presente-300.png" alt="caixa de presente">
+                </picture>
+            </a>
+            <a href="paginas-extra/pag03.html" target="frame">
+                <picture>
+                    <source media="(max-width:885px)" srcset="imagens/caixinha-de-presente-120.png">
+                    <source media="(max-width:1300px)" srcset="imagens/caixinha-de-presente-200.png">
+                    <img src="imagens/caixinha-de-presente-300.png" alt="caixa de presente">
+                </picture>
+            </a>
+        </div>
+    <iframe name="frame" src ="paginas-extra/pag-padrão.html">
+        Infelizmente seu dispositivo não é compativel ':&#40'
+    </iframe>
+
+</body>
+</html>
